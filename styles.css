@@ -1,17 +1,18 @@
-body{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: antiquewhite;
-}
-.bodyContainer{
 
+.bodyContainer{ 
     width: 600px;
     margin: auto;
     padding: 30px;
     border-radius: 30px;
-    background-color: rgb(211, 179, 130);
-    
+    color: rgb(124, 94, 49);
+    background-color: rgb(236, 217, 188);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
+.bodyContainer h1{
+    font-size: 45px;
+}
+
 .cellContainer{
 
     width:fit-content;
@@ -22,7 +23,7 @@ body{
     display: grid;
     grid-template-columns: repeat(3,auto);
     
-    background-color: rgb(187, 162, 125);
+    background-color: rgb(223, 195, 154);
 }
 .cell{
     width: 100px;
@@ -34,11 +35,16 @@ body{
    
 }
 #status{
-    font-size: 30px;
+    font-size: 40px;
+    color: rgb(121, 90, 43);
 }
 .button{
     margin-top: 20px;
-    width: 150px;
+    width: 200px;
+    height: 30px;
+    border: blanchedalmond;
+    color:rgb(66, 52, 32);
     border-radius: 30px;
     font-size: larger;
+    background-color: rgb(172, 144, 103);
 }
